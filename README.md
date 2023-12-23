@@ -34,5 +34,5 @@ You can find both a WPF and a WinForms example in this repository.
 Note: Neither example has a valid access token, so you won't be able to connect to the servers. This is normal.
 
 ###### Developed by: Gazdag Marcell (@marcellvokk)
-###### Project Owner: Beterwell (@Beterwell)
+###### Founder & Owner: Beterwell (@Beterwell)
 ###### Testing: Beterwell (@Beterwell), Yoshi (@y0shi8762), Necromancer (@necromancer393), CROAT (@CROAT#9413), x6tenceGB2 (@x6tencegb2), martinms600 (@martinms600), Tristan (@tristan_sc), Dunedain (@dunedain412), RANJEL (@ranjel), Fishy (@fishy_bfme), and others...
