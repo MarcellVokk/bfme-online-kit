@@ -1,6 +1,6 @@
 # BFME Online Kit
 
-#### In this repository you will find everything you need to implement the Online Menu of BFME Competetive Arena.
+#### In this repository you will find everything you need to implement the Online Menu of BFME Competetive Arena into your own project.
 
 ## WPF Implementation
 - Add and reference `BfmeOnlineKit.dll` in your project
