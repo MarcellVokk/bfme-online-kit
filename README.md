@@ -12,7 +12,10 @@
 - Add the `OnlineMenu` element to your design (`<onlineKit:OnlineMenu x:Name="arena" AccessToken="{YOUR_APPLICATION_ACCESS_TOKEN}"/>`)
 
 ## WinForms Implementation
-![NuGet Version](https://img.shields.io/nuget/vpre/BfmeOnlineKitForms?style=flat&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FBfmeOnlineKitForms)
+<a href="https://www.nuget.org/packages/BfmeOnlineKitForms">
+    <img src="https://img.shields.io/nuget/v/BfmeOnlineKitForms"/>
+</a>
+
 - Add and reference `BfmeOnlineKitForms.dll` in your project, and make sure to
 - **Place `BfmeOnlineKit.dll` in the same folder you placed `BfmeOnlineKitForms.dll`!**
 - Add the `OnlineMenu` control to your form
