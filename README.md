@@ -3,7 +3,9 @@
 #### In this repository you will find everything you need to implement the Online Menu of BFME Competetive Arena into your own project.
 
 ## WPF Implementation
-![NuGet Version](https://img.shields.io/nuget/vpre/BfmeOnlineKit?style=flat&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FBfmeOnlineKit)
+<a href="https://www.nuget.org/packages/BfmeOnlineKit">
+    <img src="https://img.shields.io/nuget/v/BfmeOnlineKit"/>
+</a>
 - Add and reference `BfmeOnlineKit.dll` in your project
 - Reference the namespace in the desired XAML file (`xmlns:onlineKit="clr-namespace:BFMECompetetiveArena_OnlineKit;assembly=BfmeOnlineKit"`)
 - Add the `OnlineMenu` element to your design (`<onlineKit:OnlineMenu x:Name="arena" AccessToken="{YOUR_APPLICATION_ACCESS_TOKEN}"/>`)
