@@ -1,5 +1,8 @@
 # BFME Online Kit
 
+![NuGet Version](https://img.shields.io/nuget/v/BfmeOnlineKit) 
+![NuGet Version](https://img.shields.io/nuget/v/BfmeOnlineKitForms)
+
 #### In this repository you will find everything you need to implement the Online Menu of BFME Competetive Arena into your own project.
 
 ## WPF Implementation
