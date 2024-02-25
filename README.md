@@ -6,6 +6,7 @@
 <a href="https://www.nuget.org/packages/BfmeOnlineKit">
     <img src="https://img.shields.io/nuget/v/BfmeOnlineKit"/>
 </a>&nbsp;&nbsp;
+
 - Add and reference `BfmeOnlineKit.dll` in your project
 - Reference the namespace in the desired XAML file (`xmlns:onlineKit="clr-namespace:BFMECompetetiveArena_OnlineKit;assembly=BfmeOnlineKit"`)
 - Add the `OnlineMenu` element to your design (`<onlineKit:OnlineMenu x:Name="arena" AccessToken="{YOUR_APPLICATION_ACCESS_TOKEN}"/>`)
