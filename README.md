@@ -5,7 +5,7 @@
 ## WPF Implementation
 <a href="https://www.nuget.org/packages/BfmeOnlineKit">
     <img src="https://img.shields.io/nuget/v/BfmeOnlineKit"/>
-</a>&nbsp;&nbsp;
+</a>
 
 - Add and reference `BfmeOnlineKit.dll` in your project
 - Reference the namespace in the desired XAML file (`xmlns:onlineKit="clr-namespace:BFMECompetetiveArena_OnlineKit;assembly=BfmeOnlineKit"`)
