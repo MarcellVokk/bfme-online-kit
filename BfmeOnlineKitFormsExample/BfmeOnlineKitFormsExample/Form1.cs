@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Windows.Forms.Integration;
 
-namespace launcherBase
+namespace BfmeOnlineKitFormsExample
 {
     public partial class Form1 : Form
     {
@@ -10,12 +10,12 @@ namespace launcherBase
             InitializeComponent();
         }
 
-        private async void button1_Click(object sender, EventArgs e)
+        private async void LoadClicked(object sender, EventArgs e)
         {
-            await onlineMenu.Load();
+            await onlineMenu.Load(game: BFMECompetetiveArena_OnlineKit.Data.BfmeGame.BFME1);
         }
 
-        private async void button2_Click(object sender, EventArgs e)
+        private async void UnloadClicked(object sender, EventArgs e)
         {
             await onlineMenu.Unload();
         }

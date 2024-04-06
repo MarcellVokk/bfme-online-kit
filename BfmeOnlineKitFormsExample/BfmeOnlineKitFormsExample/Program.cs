@@ -1,4 +1,4 @@
-namespace launcherBase
+namespace BfmeOnlineKitFormsExample
 {
     internal static class Program
     {

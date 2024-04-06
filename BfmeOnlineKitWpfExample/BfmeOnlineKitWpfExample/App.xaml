@@ -1,7 +1,7 @@
-﻿<Application x:Class="launcherBasewpf.App"
+﻿<Application x:Class="BfmeOnlineKitWpfExample.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:launcherBasewpf"
+             xmlns:local="clr-namespace:BfmeOnlineKitWpfExample"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

@@ -10,9 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="BfmeOnlineKitForms">
-      <HintPath>BfmeOnlineKit\BfmeOnlineKitForms.dll</HintPath>
-    </Reference>
+    <PackageReference Include="BfmeOnlineKit" Version="1.5.0" />
+    <PackageReference Include="BfmeOnlineKitForms" Version="1.5.1" />
   </ItemGroup>
 
 </Project>

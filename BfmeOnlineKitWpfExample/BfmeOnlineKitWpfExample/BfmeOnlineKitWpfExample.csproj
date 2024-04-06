@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="BfmeOnlineKit">
-      <HintPath>BfmeOnlineKit\BfmeOnlineKit.dll</HintPath>
-    </Reference>
+    <PackageReference Include="BfmeOnlineKit" Version="1.5.0" />
   </ItemGroup>
 
 </Project>

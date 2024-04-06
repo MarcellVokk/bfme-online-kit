@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace launcherBasewpf
+namespace BfmeOnlineKitWpfExample
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -29,12 +29,12 @@ namespace launcherBasewpf
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void LoadClicked(object sender, RoutedEventArgs e)
         {
-            online_menu.Load();
+            online_menu.Load(game: BFMECompetetiveArena_OnlineKit.Data.BfmeGame.BFME1);
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void UnloadClicked(object sender, RoutedEventArgs e)
         {
             online_menu.Unload();
         }

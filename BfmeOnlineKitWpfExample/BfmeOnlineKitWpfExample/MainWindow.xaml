@@ -1,17 +1,17 @@
-﻿<Window x:Class="launcherBasewpf.MainWindow"
+﻿<Window x:Class="BfmeOnlineKitWpfExample.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:onlineKit="clr-namespace:BFMECompetetiveArena_OnlineKit;assembly=BfmeOnlineKit"
-        xmlns:local="clr-namespace:launcherBasewpf"
+        xmlns:local="clr-namespace:BfmeOnlineKitWpfExample"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Grid x:Name="grid">
         <onlineKit:OnlineMenu Margin="0,0,0,40" x:Name="online_menu"></onlineKit:OnlineMenu>
         <Grid Height="40" VerticalAlignment="Bottom">
-            <Button Width="100" Height="20" Content="load" Click="Button_Click" Margin="10,0,0,10" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
-            <Button Width="100" Height="20" Margin="115,0,0,10" Content="unload" Click="Button_Click_1" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+            <Button Width="100" Height="20" Content="Load" Click="LoadClicked" Margin="10,0,0,10" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+            <Button Width="100" Height="20" Margin="115,0,0,10" Content="Unload" Click="UnloadClicked" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
         </Grid>
     </Grid>
 </Window>

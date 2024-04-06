@@ -1,6 +1,6 @@
 ﻿using BFMECompetetiveArena_OnlineKitForms;
 
-namespace launcherBase
+namespace BfmeOnlineKitFormsExample
 {
     partial class Form1
     {
@@ -30,40 +30,40 @@ namespace launcherBase
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
+            loadButton = new Button();
+            unloadButton = new Button();
             onlineMenu = new OnlineMenu();
             SuspendLayout();
             // 
-            // button1
+            // loadButton
             // 
-            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button1.Location = new Point(12, 865);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Load";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            loadButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            loadButton.Location = new Point(12, 869);
+            loadButton.Name = "loadButton";
+            loadButton.Size = new Size(75, 23);
+            loadButton.TabIndex = 0;
+            loadButton.Text = "Load";
+            loadButton.UseVisualStyleBackColor = true;
+            loadButton.Click += LoadClicked;
             // 
-            // button2
+            // unloadButton
             // 
-            button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button2.Location = new Point(93, 865);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 0;
-            button2.Text = "Unload";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            unloadButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            unloadButton.Location = new Point(93, 869);
+            unloadButton.Name = "unloadButton";
+            unloadButton.Size = new Size(75, 23);
+            unloadButton.TabIndex = 0;
+            unloadButton.Text = "Unload";
+            unloadButton.UseVisualStyleBackColor = true;
+            unloadButton.Click += UnloadClicked;
             // 
-            // panel1
+            // onlineMenu
             // 
             onlineMenu.AccessToken = "";
             onlineMenu.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            onlineMenu.Location = new Point(12, 12);
-            onlineMenu.Name = "panel1";
-            onlineMenu.Size = new Size(1340, 847);
+            onlineMenu.Location = new Point(0, 0);
+            onlineMenu.Name = "onlineMenu";
+            onlineMenu.Size = new Size(1364, 859);
             onlineMenu.TabIndex = 2;
             onlineMenu.UpdateBranch = "main";
             // 
@@ -73,8 +73,8 @@ namespace launcherBase
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1364, 900);
             Controls.Add(onlineMenu);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(unloadButton);
+            Controls.Add(loadButton);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -82,8 +82,8 @@ namespace launcherBase
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Button loadButton;
+        private Button unloadButton;
         private OnlineMenu onlineMenu;
     }
 }
