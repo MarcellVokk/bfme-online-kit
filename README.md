@@ -1,17 +1,19 @@
-# Bfme Foundation Project - OnlineKit
+# OnlineKit by Bfme Foundation
+#### This project is part of the Bfme Foundation Project!
 
-#### In this repository you will find everything you need to implement Online Arena into your own project.
+ ## Welcome
+ Welcome to the official github repository of OnlineKit!
+ This package provides everything you need to implement Online Arena into your own project.
 
 ## WPF Implementation
 <a href="https://www.nuget.org/packages/BfmeFoundationProject.OnlineKit">
     <img src="https://img.shields.io/nuget/v/BfmeFoundationProject.OnlineKit"/>
 </a>
 
-- Install the `BfmeFoundationProject.OnlineKit` NuGet Package.
-- Reference the namespace in the desired XAML file (`xmlns:onlineKit="clr-namespace:BfmeFoundationProject.OnlineKit;assembly=BfmeFoundationProject.OnlineKit"`)
-- Add the `OnlineMenu` element to your design (`<onlineKit:OnlineMenu x:Name="onlineMenu" AccessToken="{YOUR_APPLICATION_ACCESS_TOKEN}"/>`)
-
  ## Usage
+ - Install the `BfmeFoundationProject.OnlineKit` NuGet Package.
+ - Reference the namespace in the desired XAML file (`xmlns:onlineKit="clr-namespace:BfmeFoundationProject.OnlineKit;assembly=BfmeFoundationProject.OnlineKit"`)
+ - Add the `OnlineMenu` element to your design (`<onlineKit:OnlineMenu x:Name="onlineMenu" AccessToken="{YOUR_APPLICATION_ACCESS_TOKEN}"/>`)
  - Enter your applications access token in the `AccessToken` field
  - Load Arena by calling the `Load()` function. You can optionaly pass in a `BfmeGame game` as an argument. When Arena loads, this will be the initial game selected.
  - You can also unload Arena by calling the `Unload()` function
@@ -28,7 +30,7 @@
 - Sharing your Access Token with someone, or using an Access Token that is not for your application, will result in your Access Token being revoked.
 
 ## Examples
-You can find both a WPF and a WinForms example in this repository.
-Note: Neither example has a valid access token, so you won't be able to connect to the servers. This is normal.
+You can find a simple example made using WPF in this repository.
+Note: The example does not have a valid access token, so you won't be able to connect to the servers. This is normal.
 
 ###### Developed by: Gazdag Marcell (*@marcellvokk*)<br> Founder & Owner: Beterwell (*@Beterwell*)<br>Testing: Beterwell (*@Beterwell*), Yoshi (*@y0shi8762*), Necromancer (*@necromancer393*), CROAT (*@CROAT#9413*), x6tenceGB2 (*@x6tencegb2*), martinms600 (*@martinms600*), Tristan (*@tristan_sc*), Dunedain (*@dunedain412*), RANJEL (*@ranjel*), Fishy (*@fishy_bfme*), and others...
