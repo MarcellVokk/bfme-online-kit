@@ -5,7 +5,7 @@
  Welcome to the official github repository of OnlineKit!
  This package provides everything you need to implement Online Arena into your own project.
 
-## WPF Implementation
+## Get on NuGet
 <a href="https://www.nuget.org/packages/BfmeFoundationProject.OnlineKit">
     <img src="https://img.shields.io/nuget/v/BfmeFoundationProject.OnlineKit"/>
 </a>
