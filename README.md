@@ -1,4 +1,4 @@
-# Bfme Foundation Project - Bfme Online Kit
+# Bfme Foundation Project - OnlineKit
 
 #### In this repository you will find everything you need to implement Online Arena into your own project.
 
