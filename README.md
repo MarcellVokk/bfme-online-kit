@@ -11,15 +11,6 @@
 - Reference the namespace in the desired XAML file (`xmlns:onlineKit="clr-namespace:BfmeFoundationProject.OnlineKit;assembly=BfmeFoundationProject.OnlineKit"`)
 - Add the `OnlineMenu` element to your design (`<onlineKit:OnlineMenu x:Name="onlineMenu" AccessToken="{YOUR_APPLICATION_ACCESS_TOKEN}"/>`)
 
-## WinForms Implementation
-<a href="https://www.nuget.org/packages/BfmeFoundationProject.OnlineKitForms">
-    <img src="https://img.shields.io/nuget/v/BfmeFoundationProject.OnlineKitForms"/>
-</a>
-
-- Install the `BfmeFoundationProject.OnlineKitForms` NuGet Package.
-- Add the `OnlineMenu` control to your form
-  - In newer versions of Visual Studio, you can't add custom controls to the toolbox, so you have to add it to the design manually by editing the `Designer.cs` file
-
  ## Usage
  - Enter your applications access token in the `AccessToken` field
  - Load Arena by calling the `Load()` function. You can optionaly pass in a `BfmeGame game` as an argument. When Arena loads, this will be the initial game selected.
