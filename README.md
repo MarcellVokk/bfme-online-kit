@@ -36,4 +36,4 @@
 You can find a simple example made using WPF in this repository.
 Note: The example does not have a valid access token, so you won't be able to connect to the servers. This is normal.
 
-###### Developed by: The Online Battle Arena Team (Beterwell, MarcellVokk)
+###### Developed by the Online Battle Arena Team (Beterwell, MarcellVokk)
