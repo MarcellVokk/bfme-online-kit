@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BfmeFoundationProject.OnlineKit" Version="1.7.5" />
+    <PackageReference Include="BfmeFoundationProject.OnlineKit" Version="1.8.4" />
   </ItemGroup>
 
 </Project>
