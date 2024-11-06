@@ -6,7 +6,7 @@
 
  ## Welcome
  Welcome to the official github repository of OnlineKit!
- This package provides everything you need to implement Online Arena into your own project.
+ This package provides everything you need to implement Online Battle Arena into your own project.
 
 ## Get on NuGet
 <a href="https://www.nuget.org/packages/BfmeFoundationProject.OnlineKit">
